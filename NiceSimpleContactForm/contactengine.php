@@ -1,6 +1,6 @@
 <?php
 
-$EmailFrom = "scotcorm@uw.edu";
+$EmailFrom = "chicormier@yahoo.com";
 $EmailTo = "scotcorm@uw.edu";
 $Subject = "Contact Rhema Life!";
 $Name = Trim(stripslashes($_POST['Name'])); 
