@@ -78,16 +78,16 @@ if ($_POST['submit']) {
                             <a href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="aboutUs.html">About Us</a>
+                            <a href="#">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="ministries.html">Ministries</a>
+                            <a href="#">Ministries</a>
                         </li>
                         <li class="nav-item">
-                            <a href="findUs.html">Find Us</a>
+                            <a href="#">Find Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="pastors.html">Pastors</a>
+                            <a href="#">Pastors</a>
                         </li>
                         <!--//dropdown-->                         
                     </ul>
