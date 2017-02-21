@@ -108,6 +108,9 @@ if ($_POST['submit']) {
         <!--// End Navbar -->
     </header>
     <div class="container-fluid text-center margin-top0 pad5"> 
+        <div class="content-block contact-3">
+            <!-- /.container -->
+        </div>
         <div class="row content margin-top0 pad0">
             <div class="col-sm-2 sidenav">
 </div>

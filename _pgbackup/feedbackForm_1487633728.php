@@ -153,7 +153,7 @@ if ($_POST['submit']) {
             </div>
         </div>
     </div>
-    <div class="content-block contact-3">
+    <div class="content-block contact-3 bg-deepocean">
         <!-- /.container -->
     </div>
     <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">

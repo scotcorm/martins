@@ -103,7 +103,7 @@ if ($_POST['submit']) {
         <!-- /.container -->
     </section>
     <header id="header-1" class="soft-scroll header-1 bg-sunflower margin-bottom20">
-        <h2 class="text-center pad20"><i><b>Contact Us!</b></i></h2>
+        <h2 class="text-center pad20"><i><b>Feedback Form</b></i></h2>
         <!-- Navbar -->
         <!--// End Navbar -->
     </header>
@@ -119,7 +119,7 @@ if ($_POST['submit']) {
                         <div class="offset-md-3 form col-md-12 btn-secondary contact">
                             <h1 class="text-center"><i>Send Us a Prayer Request, or Join Our Email List!</i></h1> 
                             <?php echo $result;?>
-                            <p class="contactp">Send a message via the form below, and don't forget to check the box to confirm that you are human!&nbsp;</p>
+                            <p class="contactp">Send a message via the form below</p>
                             <form method="post" role="form">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
@@ -153,7 +153,7 @@ if ($_POST['submit']) {
             </div>
         </div>
     </div>
-    <div class="content-block contact-3">
+    <div class="content-block contact-3 bg-deepocean">
         <!-- /.container -->
     </div>
     <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">
