@@ -3151,7 +3151,6 @@ Version: 1.0
     margin: 0 auto 20px auto;
     overflow: hidden;
     border-top: 0;
-    border: 1px solid #f5f5f5;
     border-radius: 4px;
 }
 
@@ -3227,7 +3226,7 @@ Version: 1.0
 
 .team-member > img
 {
-    width: 100%;
+    width: 80%;
 }
 
 /*
@@ -4016,11 +4015,6 @@ Version: 1.0
 {
     text-align: center;
     padding: 10px 0;
-}
-
-.blog-1 .post img
-{
-    margin: 30px 0;
 }
 
 /*	Blog 1 MEDIA QUERIES
