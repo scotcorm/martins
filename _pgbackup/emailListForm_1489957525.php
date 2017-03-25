@@ -23,7 +23,7 @@ if ($_POST['submit']) {
 	} 
 	
 	else {
-		mail("scotcorm@uw.edu", "Prayer Request", "Name: ".$_POST['name']."
+		mail("scotcorm@uw.edu", "Add to Email List", "Name: ".$_POST['name']."
 		Email: ".$_POST['email']."
 		Phone Number: ".$_POST['number']."
 		Message: ".$_POST['message']);
@@ -113,7 +113,7 @@ if ($_POST['submit']) {
         <!-- /.container -->
     </section>
     <header id="header-1" class="soft-scroll header-1 bg-sunflower margin-bottom20">
-        <h2 class="text-center pad20"><i><b>Prayer Request</b></i></h2>
+        <h2 class="text-center pad20"><i><b>Email List</b></i></h2>
         <!-- Navbar -->
         <!--// End Navbar -->
     </header>
@@ -127,9 +127,9 @@ if ($_POST['submit']) {
 </div>
                     <div class="row">
                         <div class="offset-md-3 form col-md-12 btn-secondary contact">
-                            <h1 class="text-center"><i>Send a Prayer Request to Us</i></h1> 
+                            <h1 class="text-center"><i>Join our Email List!</i></h1> 
                             <?php echo $result;?>
-                            <p class="contactp text-center">Send a message via the form below, and don't forget to check the box!</p>
+                            <p class="contactp text-center">Send a message via the form below, and don't forget to check the box to confirm that you are human!</p>
                             <form method="post" role="form">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
@@ -149,7 +149,7 @@ if ($_POST['submit']) {
                                     </label>
                                 </div>
                                 <div align="center">
-                                    <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="send prayer" />
+                                    <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="Join our Email List" />
                                 </div>
                             </form>
                         </div>

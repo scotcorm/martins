@@ -129,7 +129,7 @@ if ($_POST['submit']) {
                         <div class="offset-md-3 form col-md-12 btn-secondary contact">
                             <h1 class="text-center"><i>Join our Email List!</i></h1> 
                             <?php echo $result;?>
-                            <p class="contactp text-center">Send a message via the form below, and don't forget to check the box to confirm that you are human!</p>
+                            <p class="contactp text-center">Send a message via the form below, and don't forget to check the box !</p>
                             <form method="post" role="form">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
