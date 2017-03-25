@@ -37,7 +37,9 @@ body
 
 .bg-white
 {
-    background-color: #FFFFFF !important;
+    font-size: 36px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .bg-offwhite
