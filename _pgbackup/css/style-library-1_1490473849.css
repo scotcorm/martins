@@ -37,7 +37,9 @@ body
 
 .bg-white
 {
-    background-color: #FFFFFF !important;
+    font-size: 36px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 .bg-offwhite
@@ -969,7 +971,7 @@ ul
 {
     list-style: none;
     position: relative;
-    padding-left: 22px;
+    padding-left: auto;
 }
 
 ul li,
@@ -1277,7 +1279,9 @@ button:hover
     list-style: none;
     position: relative;
     z-index: 100;
+    padding-left: 10px; 
 }
+
 
 .social li
 {

@@ -971,7 +971,7 @@ ul
 {
     list-style: none;
     position: relative;
-    padding-left: 22px;
+    padding-left: auto;
 }
 
 ul li,
@@ -1028,6 +1028,7 @@ img
 {
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 /*===================================================================================*/
@@ -1279,6 +1280,7 @@ button:hover
     list-style: none;
     position: relative;
     z-index: 100;
+    padding-left: 10px;
 }
 
 .social li
