@@ -1026,10 +1026,11 @@ ul.circle li:before
 
 img
 {
+    display: block;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
 }
+
 
 /*===================================================================================*/
 
