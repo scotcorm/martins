@@ -23,7 +23,7 @@ if ($_POST['submit']) {
 	} 
 	
 	else {
-		mail("scotcorm@uw.edu", "Prayer Request", "Name: ".$_POST['name']."
+		mail("rev@rhemalifeministry.org", "Prayer Request", "Name: ".$_POST['name']."
 		Email: ".$_POST['email']."
 		Phone Number: ".$_POST['number']."
 		Message: ".$_POST['message']);
@@ -43,9 +43,9 @@ if ($_POST['submit']) {
         <meta charset="utf-8"> 
         <title>Rhema Life</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <meta name="keywords" content="pinegrow, blocks, bootstrap" />
-        <meta name="description" content="My new website" />
-        <link rel="shortcut icon" href="ico/favicon.png"> 
+        <meta name="keywords" content="Rhema Life, Martins Donbruce Idahosa, Fort Lauderdale Church" />
+        <meta name="description" content="Rhema Life website" />
+        <link rel="shortcut icon" href="indexImg/logoT.png"> 
         <!-- Core CSS -->         
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
         <link href="css/font-awesome.min.css" rel="stylesheet">
@@ -97,6 +97,9 @@ if ($_POST['submit']) {
                             <a href="smallGroups.html">Small Groups</a>
                         </li>
                         <li class="nav-item">
+                            <a href="album.html">Pictures</a>
+                        </li>
+                        <li class="nav-item">
                             <a href="findUs.html">Find Us</a>
                         </li>
                         <!--//dropdown-->                         
@@ -145,7 +148,7 @@ if ($_POST['submit']) {
                                 </div>
                                 <div class="checkbox text-center">
                                     <label>
-                                        <input type="checkbox" name="check"> I am human
+                                        <input type="checkbox" name="check"> Please check the box.
                                     </label>
                                 </div>
                                 <div align="center">
