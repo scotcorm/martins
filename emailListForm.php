@@ -75,7 +75,7 @@ if ($_POST['submit']) {
                         <span class="icon-bar"></span>
                     </button>
                     <a href="#">
-                        <img src="indexImg/logoT.png" class="brand-img img-responsive pad0 pad-bottom0 img-circle">
+                        <img src="indexImg/logoT.png" class="brand-img img-responsive pad0 pad-bottom0 img-circle" alt="logo">
                     </a>
                 </div>
                 <!-- Navigation -->
@@ -174,7 +174,7 @@ if ($_POST['submit']) {
     </div>
     <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">
         <div class="container footer-1-2 pad-bottom0 pad5">
-            <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle">
+            <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
         </div>
         <!-- /.container -->
     </section>

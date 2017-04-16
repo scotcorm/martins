@@ -23,13 +23,13 @@ if ($_POST['submit']) {
 	} 
 	
 	else {
-		mail("rev@rhemalifeministry.org", "Prayer Request", "Name: ".$_POST['name']."
+		mail("sec@rhemalifeministry.org", "Add to Email List", "Name: ".$_POST['name']."
 		Email: ".$_POST['email']."
 		Phone Number: ".$_POST['number']."
 		Message: ".$_POST['message']);
 		
 		{
-		$result='<div class="alert alert-success" role="alert">Thank you, I\'ll be in touch shortly</div>';
+		$result='<div class="alert alert-success" role="alert">Thank you, I'll be in touch shortly</div>';
 		}
 	}
 
@@ -75,7 +75,7 @@ if ($_POST['submit']) {
                         <span class="icon-bar"></span>
                     </button>
                     <a href="#">
-                        <img src="indexImg/logoT.png" class="brand-img img-responsive pad0 pad-bottom0 img-circle" alt="logo">
+                        <img src="indexImg/logoT.png" class="brand-img img-responsive pad0 pad-bottom0 img-circle">
                     </a>
                 </div>
                 <!-- Navigation -->
@@ -116,7 +116,7 @@ if ($_POST['submit']) {
         <!-- /.container -->
     </section>
     <header id="header-1" class="soft-scroll header-1 bg-sunflower margin-bottom20">
-        <h2 class="text-center pad20"><i><b>Prayer Request</b></i></h2>
+        <h2 class="text-center pad20"><i><b>Email List</b></i></h2>
         <!-- Navbar -->
         <!--// End Navbar -->
     </header>
@@ -130,9 +130,9 @@ if ($_POST['submit']) {
 </div>
                     <div class="row">
                         <div class="offset-md-3 form col-md-12 btn-secondary contact">
-                            <h1 class="text-center"><i>Send a Prayer Request to Us</i></h1> 
+                            <h1 class="text-center"><i>Join our Email List!</i></h1> 
                             <?php echo $result;?>
-                            <p class="contactp text-center">Send a message via the form below, and don't forget to check the box!</p>
+                            <p class="contactp text-center">Send a message via the form below, and don't forget to check the box !</p>
                             <form method="post" role="form">
                                 <div class="form-group">
                                     <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
@@ -152,7 +152,7 @@ if ($_POST['submit']) {
                                     </label>
                                 </div>
                                 <div align="center">
-                                    <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="send prayer" />
+                                    <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="Join our Email List" />
                                 </div>
                             </form>
                         </div>
@@ -174,7 +174,7 @@ if ($_POST['submit']) {
     </div>
     <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">
         <div class="container footer-1-2 pad-bottom0 pad5">
-            <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
+            <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle">
         </div>
         <!-- /.container -->
     </section>
