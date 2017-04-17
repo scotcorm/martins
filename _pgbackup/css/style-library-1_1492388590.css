@@ -1007,6 +1007,14 @@ ul.circle li:before
     margin: 0;
 }
 
+.underlined-title h2
+{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #95a5a6;
+}
+
 .underlined-title hr
 {
     width: 10%;
