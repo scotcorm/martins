@@ -112,101 +112,101 @@ if ($_POST['submit']) {
         </nav>
         <!--// End Navbar -->
     </header>     
-    <body data-spy="scroll" data-target="nav" class="pad0 margin-top0">
-        <section id="promo-3" class="content-block promo-3 bg-deepocean min-height-400px">
-            <!-- /.container -->
-        </section>
-        <header id="header-1" class="soft-scroll header-1 bg-sunflower margin-bottom20">
-            <h2 class="text-center pad20"><i><b>Prayer Request</b></i></h2>
-            <!-- Navbar -->
-            <!--// End Navbar -->
-        </header>
-        <div class="container-fluid text-center margin-top0 pad5"> 
-            <div class="row content margin-top0 pad0">
-                <div class="col-sm-2 sidenav">
+    <section id="promo-3" class="content-block promo-3 bg-deepocean min-height-400px">
+        <!-- /.container -->
+    </section>
+    <header id="header-1" class="soft-scroll header-1 bg-sunflower margin-bottom20">
+        <h2 class="text-center pad20"><i><b>Prayer Request</b></i></h2>
+        <!-- Navbar -->
+        <!--// End Navbar -->
+    </header>
+    <div class="container-fluid text-center margin-top0 pad5"> 
+        <div class="row content margin-top0 pad0">
+            <div class="col-sm-2 sidenav">
 </div>
-                <div class="col-sm-8 pad-bottom0 margin-bottom0 text-left">
-                    <section id="content-2-9" class="content-2-9 bg-sunflower">
-                        <div class="project-wrapper">
+            <div class="col-sm-8 pad-bottom0 margin-bottom0 text-left">
+                <section id="content-2-9" class="content-2-9 bg-sunflower">
+                    <div class="project-wrapper">
 </div>
-                        <div class="row">
-                            <div class="offset-md-3 form col-md-12 btn-secondary contact">
-                                <h1 class="text-center"><i>Send a Prayer Request to Us</i></h1> 
-                                <?php echo $result;?>
-                                <p class="contactp text-center">Send a message via the form below, and don't forget to check the box!</p>
-                                <form method="post" role="form">
-                                    <div class="form-group">
-                                        <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="tel" name="number" class="form-control" placeholder="Your number" value="<?php echo $_POST['number']; ?>">
-                                    </div>
-                                    <div class="form-group">
-                                        <input type="email" name="email" class="form-control" placeholder="Your email" value="<?php echo $_POST['email']; ?>">
-                                    </div>
-                                    <div class="form-group">
-                                        <textarea name="message" rows="5" class="form-control" placeholder="message..."><?php echo $_POST['message']; ?></textarea>
-                                    </div>
-                                    <div class="checkbox text-center">
-                                        <label>
-                                            <input type="checkbox" name="check"> Please check the box.
-                                        </label>
-                                    </div>
-                                    <div align="center">
-                                        <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="send prayer" />
-                                    </div>
-                                </form>
-                            </div>
+                    <div class="row">
+                        <div class="offset-md-3 form col-md-12 btn-secondary contact">
+                            <h1 class="text-center"><i>Send a Prayer Request to Us</i></h1> 
+                            <?php echo $result;?>
+                            <p class="contactp text-center">Send a message via the form below, and don't forget to check the box!</p>
+                            <form method="post" role="form">
+                                <div class="form-group">
+                                    <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" name="number" class="form-control" placeholder="Your number" value="<?php echo $_POST['number']; ?>">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" class="form-control" placeholder="Your email" value="<?php echo $_POST['email']; ?>">
+                                </div>
+                                <div class="form-group">
+                                    <textarea name="message" rows="5" class="form-control" placeholder="message..."><?php echo $_POST['message']; ?></textarea>
+                                </div>
+                                <div class="checkbox text-center">
+                                    <label>
+                                        <input type="checkbox" name="check"> Please check the box.
+                                    </label>
+                                </div>
+                                <div align="center">
+                                    <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="send prayer" />
+                                </div>
+                            </form>
                         </div>
-                        <!-- /.project-wrapper -->
-                    </section>                     
-                    <div class="pad-bottom20 box col-md-11">
-                        <section id="contact">
-                            <div class="container">
+                    </div>
+                    <!-- /.project-wrapper -->
+                </section>                 
+                <div class="pad-bottom20 box col-md-11">
+                    <section id="contact">
+                        <div class="container">
 </div>
-                        </section>
-                        <!-- /.form-container -->
-                    </div>
+                    </section>
+                    <!-- /.form-container -->
                 </div>
             </div>
         </div>
-        <div class="content-block contact-3">
-            <!-- /.container -->
+    </div>
+    <div class="content-block contact-3">
+        <!-- /.container -->
+    </div>
+    <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">
+        <div class="container footer-1-2 pad-bottom0 pad5">
+            <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
         </div>
-        <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">
-            <div class="container footer-1-2 pad-bottom0 pad5">
-                <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
-            </div>
-            <!-- /.container -->
-        </section>
-        <section class="content-block-nopad bg-deepocean footer-wrap-1-1">
-            <div class="container footer-1-1 pad10">
-                <h1 class="white text-center">Rhema Life Ministry</h1>
-                <div class="row text-center footer">
-                    <div class="col-sm-5 col-sm-offset-0 pull-left footer">
-                        <h3>Location</h3>
-                        <p class="footer">2700 West Oakland Park Boulevard, Suite 26</p>
-                        <p class="footer">Oakland Park, FL 33311</p>
-                    </div>
-                    <div class="col-sm-5 col-sm-offset-1 pull-right">
-                        <h3>Mailing Address</h3>
-                        <p class="footer">PO Box 101617</p>
-                        <p class="footer">Fort Lauderdale, FL 33310</p>
-                    </div>
+        <!-- /.container -->
+    </section>
+    <section class="content-block-nopad bg-deepocean footer-wrap-1-1">
+        <div class="container footer-1-1 pad10">
+            <h1 class="white text-center">Rhema Life Ministry</h1>
+            <div class="row text-center footer">
+                <div class="col-sm-5 col-sm-offset-0 pull-left footer">
+                    <h3><strong>Location</strong></h3>
+                    <p class="footer">2700 West Oakland Park Boulevard, Suite 26</p>
+                    <p class="footer">Oakland Park, FL 33311</p>
                 </div>
-                <!-- /.row -->
+                <div class="col-sm-5 col-sm-offset-1 pull-right">
+                    <h3><strong>Mailing Address</strong></h3>
+                    <p class="footer">PO Box 101617</p>
+                    <p class="footer">Fort Lauderdale, FL 33310</p>
+                </div>
             </div>
-            <!-- /.container -->
-        </section>
-        <div class="copyright-bar bg-black">
-            <div class="container">
-                <p class="pull-left small">© 2017- Rhema Life</p>
-            </div>
+            <!-- /.row -->
         </div>
+        <!-- /.container -->
+    </section>
+    <div class="copyright-bar bg-black">
+        <div class="container">
+            <p class="pull-left small">© 2017- Rhema Life</p>
+        </div>
+    </div>
+    <body data-spy="scroll" data-target="nav" class="pad0 margin-top0">
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>         
         <script type="text/javascript" src="js/bootstrap.min.js"></script>         
         <script type="text/javascript" src="js/plugins.js"></script>
         <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
         <script type="text/javascript" src="js/bskit-scripts.js"></script>         
-    </body>
+    </body>     
 </html>
