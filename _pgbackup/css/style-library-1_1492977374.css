@@ -2126,11 +2126,10 @@ media
 @media{
 }
 
-media
+@media only screen and (min-width:992px)
 {
-}
-
-media
-{
+    media
+    {
+    }
 }
 
