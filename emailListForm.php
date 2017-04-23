@@ -108,8 +108,9 @@ if ($_POST['submit']) {
             <!--// End Container -->
         </nav>
         <!--// End Navbar -->
-    </header>     
-    <body data-spy="scroll" data-target="nav" class="pad0 margin-top0 text-center">
+    </header>   
+
+    <body>
         <section id="promo-3" class="content-block promo-3 bg-deepocean min-height-400px">
             <!-- /.container -->
         </section>
@@ -119,11 +120,11 @@ if ($_POST['submit']) {
         <div class="container-fluid text-center margin-top0 pad5"> 
             <div class="row content margin-top0 pad0">
                 <div class="col-sm-2 sidenav">
-</div>
+                </div>
                 <div class="col-sm-8 pad-bottom0 margin-bottom0 text-left">
                     <section id="content-2-9" class="content-2-9 bg-sunflower">
                         <div class="project-wrapper">
-</div>
+                        </div>
                         <div class="row">
                             <div class="offset-md-3 form col-md-12 btn-secondary contact">
                                 <h1 class="text-center"><i>Join our Email List!</i></h1> 
@@ -158,7 +159,7 @@ if ($_POST['submit']) {
                     <div class="pad-bottom20 box col-md-11">
                         <section id="contact">
                             <div class="container">
-</div>
+                            </div>
                         </section>
                         <!-- /.form-container -->
                     </div>
