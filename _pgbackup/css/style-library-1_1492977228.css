@@ -949,7 +949,6 @@ a
     color: #1abc9c;
 }
 
-
 a:hover
 {
     color: #16a085;
@@ -2115,5 +2114,22 @@ fieldset[disabled] .form-control
 }
 
 @media (max-width: 990px){
+}
+
+@media (min-width: 768px){
+}
+
+media
+{
+}
+
+@media{
+}
+
+@media only screen and (min-width:992px)
+{
+    media
+    {
+    }
 }
 
