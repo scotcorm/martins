@@ -725,7 +725,7 @@ img.mfp-img
     cursor: pointer;
 }
 
-@media screen and (max-width: 800px) and (orientation: landscape), screen and (max-height: 300px)
+@media screen and (max-width: 768px) and (orientation: landscape), screen and (max-height: 300px)
 {
 /**
          * Remove all paddings around the image on small screen
@@ -784,7 +784,7 @@ img.mfp-img
     }
 }
 
-@media all and (max-width: 900px)
+@media all and (max-width: 992px)
 {
     .mfp-arrow
     {
