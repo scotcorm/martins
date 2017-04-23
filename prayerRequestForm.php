@@ -85,7 +85,7 @@ if ($_POST['submit']) {
                             <a href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="aboutUs.html">About Us</a>
+                            <a href="aboutUs.html">About</a>
                         </li>
                         <li class="nav-item">
                             <a href="ministries.html">Ministries</a>
@@ -94,10 +94,7 @@ if ($_POST['submit']) {
                             <a href="pastors.html">Pastors</a>
                         </li>
                         <li class="nav-item">
-                            <a href="smallGroups.html">Small Groups</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="album.html">Pictures</a>
+                            <a href="smallGroups.html">Groups</a>
                         </li>
                         <li class="nav-item">
                             <a href="findUs.html">Find Us</a>
@@ -112,15 +109,13 @@ if ($_POST['submit']) {
         </nav>
         <!--// End Navbar -->
     </header>     
-    <body data-spy="scroll" data-target="nav" class="pad0 margin-top0">
+    <body data-spy="scroll" data-target="nav" class="pad0 margin-top0 text-center">
         <section id="promo-3" class="content-block promo-3 bg-deepocean min-height-400px">
             <!-- /.container -->
         </section>
-        <header id="header-1" class="soft-scroll header-1 bg-sunflower margin-bottom20">
-            <h2 class="text-center pad20"><i><b>Prayer Request</b></i></h2>
-            <!-- Navbar -->
-            <!--// End Navbar -->
-        </header>
+        <div class="panel bg-sunflower"> 
+            <h2 class="bg-sunflower"><i><b class="text-center">Prayer Request</b></i></h2> 
+        </div>
         <div class="container-fluid text-center margin-top0 pad5"> 
             <div class="row content margin-top0 pad0">
                 <div class="col-sm-2 sidenav">
