@@ -29,13 +29,10 @@ if ($_POST['submit']) {
 		Message: ".$_POST['message']);
 		
 		{
-		$result='<div class="alert alert-success" role="alert">Thank you, I'll be in touch shortly</div>';
+		$result='<div class="alert alert-success" role="alert">Thank you, I\'ll be in touch shortly</div>';
 		}
 	}
-
-
 }
-
 ?>
 <!DOCTYPE html> 
 <html lang="en" style="height:100%;">
@@ -62,55 +59,54 @@ if ($_POST['submit']) {
       <script src="js/respond.min.js"></script>
     <![endif]-->         
     </head>
-    <header id="header-1" class="soft-scroll header-1">
-        <!-- Navbar -->
-        <nav class="main-nav navbar-fixed-top headroom headroom--pinned">
-            <div class="container">
-                <!-- Brand and toggle -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="#">
-                        <img src="indexImg/logoT.png" class="brand-img img-responsive pad0 pad-bottom0 img-circle" alt="logo">
-                    </a>
-                </div>
-                <!-- Navigation -->
-                <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="active nav-item">
-                            <a href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="aboutUs.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="ministries.html">Ministries</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="pastors.html">Pastors</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="smallGroups.html">Groups</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="findUs.html">Find Us</a>
-                        </li>
-                        <!--//dropdown-->                         
-                    </ul>
-                    <!--//nav-->
-                </div>
-                <!--// End Navigation -->
-            </div>
-            <!--// End Container -->
-        </nav>
-        <!--// End Navbar -->
-    </header>   
-
     <body>
+        <header id="header-1" class="soft-scroll header-1">
+            <!-- Navbar -->
+            <nav class="main-nav navbar-fixed-top headroom headroom--pinned">
+                <div class="container">
+                    <!-- Brand and toggle -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#">
+                            <img src="indexImg/logoT.png" class="brand-img img-responsive pad0 pad-bottom0 img-circle" alt="logo">
+                        </a>
+                    </div>
+                    <!-- Navigation -->
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="active nav-item">
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="aboutUs.html">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="ministries.html">Ministries</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="pastors.html">Pastors</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="smallGroups.html">Groups</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="findUs.html">Find Us</a>
+                            </li>
+                            <!--//dropdown-->                         
+                        </ul>
+                        <!--//nav-->
+                    </div>
+                    <!--// End Navigation -->
+                </div>
+                <!--// End Container -->
+            </nav>
+            <!--// End Navbar -->
+        </header>   
         <section id="promo-3" class="content-block promo-3 bg-deepocean min-height-400px">
             <!-- /.container -->
         </section>
