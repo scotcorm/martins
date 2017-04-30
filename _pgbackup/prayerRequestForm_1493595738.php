@@ -110,8 +110,8 @@ if ($_POST['submit']) {
         <section id="promo-3" class="content-block promo-3 bg-deepocean min-height-400px">
             <!-- /.container -->
         </section>
-        <div class="panel bg-sunflower margin-top20"> 
-            <h2 class="text-center"><i><b>Prayer Requests</b></i></h2> 
+        <div class="panel bg-sunflower">
+            <h2 class="text-center"><i><b class="text-center">Prayer Request</b></i></h2> 
         </div>
         <div class="container-fluid text-center margin-top0 pad5"> 
             <div class="row content margin-top0 pad0">
