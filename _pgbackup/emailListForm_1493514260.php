@@ -1,3 +1,39 @@
+<?php
+
+if ($_POST['submit']) {
+
+	if (!$_POST['name']) {
+		$error="<br/>- Please enter your name";
+	}
+	if (!$_POST['number']) {
+		$error.="<br/>- Please enter your number";
+	}
+	if (!$_POST['email']) {
+		$error.="<br/>- Please enter your email";
+	}
+	if (!$_POST['message']) {
+		$error.="<br/>- Please enter a message";
+	}
+	if (!$_POST['check']) {
+		$error.="<br/>- Please confirm you are human";
+	}
+	
+	if ($error) {
+		$result='<div class="alert alert-danger" role="alert"><strong>Whoops, there is an error</strong>. Please correct the following: '.$error.'</div>';
+	} 
+	
+	else {
+		mail("sec@rhemalifeministry.org", "Add to Email List", "Name: ".$_POST['name']."
+		Email: ".$_POST['email']."
+		Phone Number: ".$_POST['number']."
+		Message: ".$_POST['message']);
+		
+		{
+		$result='<div class="alert alert-success" role="alert">Thank you, I\'ll be in touch shortly</div>';
+		}
+	}
+}
+?>
 <!DOCTYPE html> 
 <html lang="en" style="height:100%;">
     <head> 
@@ -59,7 +95,7 @@
                                 <a href="smallGroups.html">Groups</a>
                             </li>
                             <li class="nav-item">
-                                <a href="album.html">Pictures</a>
+                                <a href="findUs.html">Find Us</a>
                             </li>
                             <!--//dropdown-->                             
                         </ul>
@@ -71,36 +107,64 @@
             </nav>
             <!--// End Navbar -->
         </header>         
-        <section id="promo-3" class="content-block promo-3 min-height-400px bg-deepocean">
+        <section id="promo-3" class="content-block promo-3 bg-deepocean min-height-400px">
             <!-- /.container -->
         </section>
-        <div class="panel bg-sunflower text-center margin-top5"> 
-            <h2><i><b>Find Us</b></i></h2> 
+        <div class="panel bg-sunflower"> 
+            <h2 class="bg-sunflower text-center"><i><b>Email List</b></i></h2>
         </div>
-        <section class="content-block content-1-8 pad5 pad-bottom5 bg-offwhite">
-            <div class="container">
-                <div class="tab-content">
-                    <div class="tab-pane fade in active" id="tab1">
+        <div class="container-fluid text-center margin-top0 pad5"> 
+            <div class="row content margin-top0 pad0">
+                <div class="col-sm-2 sidenav">
+</div>
+                <div class="col-sm-8 pad-bottom0 margin-bottom0 text-left">
+                    <section id="content-2-9" class="content-2-9 bg-sunflower">
+                        <div class="project-wrapper">
+</div>
                         <div class="row">
-                            <div class="col-md-5 col-md-offset-1 col-sm-6">
-                                <img class="img-responsive" src="findUsImg/map.png" alt="mapImage">
-                                <a class="btn btn-default btn-block bg-sunflower white active bg-offwhite-hover black-hover" href="https://www.google.com/maps/place/RHEMA+LIFE+EMPOWERMENT+OUTREACH+CENTER+(+Where+We+Give+Your+Life+Meaning)/@26.164968,-80.1818557,17z/data=!3m1!4b1!4m5!3m4!1s0x88d9014fd4a6c39b:0x2e075fb2064f74bc!8m2!3d26.164968!4d-80.179667">Click Here For An Active Map</a>
+                            <div class="offset-md-3 form col-md-12 btn-secondary contact">
+                                <h1 class="text-center"><i>Join our Email List!</i></h1> 
+                                <?php echo $result;?>
+                                <p class="contactp text-center">Send a message via the form below, and don't forget to check the box !</p>
+                                <form method="post" role="form">
+                                    <div class="form-group">
+                                        <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="tel" name="number" class="form-control" placeholder="Your number" value="<?php echo $_POST['number']; ?>">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="email" name="email" class="form-control" placeholder="Your email" value="<?php echo $_POST['email']; ?>">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea name="message" rows="5" class="form-control" placeholder="message..."><?php echo $_POST['message']; ?></textarea>
+                                    </div>
+                                    <div class="checkbox text-center">
+                                        <label>
+                                            <input type="checkbox" name="check"> Please check the box.
+                                        </label>
+                                    </div>
+                                    <div align="center">
+                                        <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="Join our Email List" />
+                                    </div>
+                                </form>
                             </div>
-                            <!-- /.col -->
-                            <div class="col-md-5 col-sm-6">
-                                <h3>RHEMA LIFE MINISTRY</h3>
-                                <p>At Rhema Life you will receive fresh vision, new revelations and spiritual gifts from God that will revolutionize your life. Come to your place of victory, a place where you will find peace for a new start in your Christian journey.</p>
-                                <p>Rhema Life Ministry is a place where the power of God is released to meet your daily needs. Now located at 2700 West Oakland Park Blvd., Rhema Life is a ministry where the word of God comes alive in your Spirit, and a place where you will experience deliverance, healing, breakthrough and restoration.</p>
-                            </div>
-                            <!-- /.col -->
                         </div>
-                        <!-- /.row -->
+                        <!-- /.project-wrapper -->
+                    </section>                     
+                    <div class="pad-bottom20 box col-md-11">
+                        <section id="contact">
+                            <div class="container">
+</div>
+                        </section>
+                        <!-- /.form-container -->
                     </div>
                 </div>
-                <!-- /.tab-content -->
             </div>
+        </div>
+        <div class="content-block contact-3">
             <!-- /.container -->
-        </section>
+        </div>
         <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">
             <div class="container footer-1-2 pad-bottom0 pad5">
                 <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
@@ -109,17 +173,17 @@
         </section>
         <section class="content-block-nopad bg-deepocean footer-wrap-1-1">
             <div class="container footer-1-1 pad10">
-                <h1 class="white text-center soft-scroll" id="address">Rhema Life Ministry</h1>
-                <div class="row text-center">
-                    <div class="col-sm-5 col-sm-offset-0 pull-left">
+                <h1 class="white text-center">Rhema Life Ministry</h1>
+                <div class="row text-center footer">
+                    <div class="col-sm-5 col-sm-offset-0 pull-left footer">
                         <h3>Location</h3>
-                        <p class="paragraph white">2700 West Oakland Park Boulevard, Suite 26</p>
-                        <p class="paragraph white">Oakland Park, FL 33311</p>
+                        <p class="footer">2700 West Oakland Park Boulevard, Suite 26</p>
+                        <p class="footer">Oakland Park, FL 33311</p>
                     </div>
                     <div class="col-sm-5 col-sm-offset-1 pull-right">
                         <h3>Mailing Address</h3>
-                        <p class="paragraph white">PO Box 101617</p>
-                        <p class="paragraph white">Fort Lauderdale, FL 33310</p>
+                        <p class="footer">PO Box 101617</p>
+                        <p class="footer">Fort Lauderdale, FL 33310</p>
                     </div>
                 </div>
                 <!-- /.row -->

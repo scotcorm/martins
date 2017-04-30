@@ -97,7 +97,7 @@ if ($_POST['submit']) {
                             <li class="nav-item">
                                 <a href="findUs.html">Find Us</a>
                             </li>
-                            <!--//dropdown-->                         
+                            <!--//dropdown-->                             
                         </ul>
                         <!--//nav-->
                     </div>
@@ -106,21 +106,21 @@ if ($_POST['submit']) {
                 <!--// End Container -->
             </nav>
             <!--// End Navbar -->
-        </header> 
+        </header>         
         <section id="promo-3" class="content-block promo-3 bg-deepocean min-height-400px">
             <!-- /.container -->
         </section>
-        <div class="panel bg-sunflower"> 
-            <h2 class="bg-sunflower"><i><b class="text-center">Prayer Request</b></i></h2> 
+        <div class="panel bg-sunflower">
+            <h2 class="text-center"><i><b class="text-center">Prayer Request</b></i></h2> 
         </div>
         <div class="container-fluid text-center margin-top0 pad5"> 
             <div class="row content margin-top0 pad0">
                 <div class="col-sm-2 sidenav">
-                </div>
+</div>
                 <div class="col-sm-8 pad-bottom0 margin-bottom0 text-left">
-                    <section id="content-2-9" class="content-2-9 bg-sunflower">
+                    <section id="content-2-9" class="content-2-9">
                         <div class="project-wrapper">
-                        </div>
+</div>
                         <div class="row">
                             <div class="offset-md-3 form col-md-12 btn-secondary contact">
                                 <h1 class="text-center"><i>Send a Prayer Request to Us</i></h1> 
@@ -155,7 +155,7 @@ if ($_POST['submit']) {
                     <div class="pad-bottom20 box col-md-11">
                         <section id="contact">
                             <div class="container">
-                            </div>
+</div>
                         </section>
                         <!-- /.form-container -->
                     </div>
