@@ -123,7 +123,7 @@ if ($_POST['submit']) {
 </div>
                         <div class="row">
                             <div class="offset-md-3 form col-md-12 btn-secondary contact">
-                                <h2 class="text-center"><i>Send a Prayer Request to Us</i></h2> 
+                                <h1 class="text-center"><i>Send a Prayer Request to Us</i></h1> 
                                 <?php echo $result;?>
                                 <p class="contactp text-center">Send a message via the form below, and don't forget to check the box!</p>
                                 <form method="post" role="form">
@@ -173,7 +173,7 @@ if ($_POST['submit']) {
         </section>
         <section class="content-block-nopad bg-deepocean footer-wrap-1-1">
             <div class="container footer-1-1 pad10">
-                <h2 class="white text-center">Rhema Life Ministry</h2>
+                <h1 class="white text-center">Rhema Life Ministry</h1>
                 <div class="row text-center footer">
                     <div class="col-sm-5 col-sm-offset-0 pull-left footer">
                         <h3>Location</h3>
