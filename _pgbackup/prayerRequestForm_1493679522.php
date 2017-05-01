@@ -160,11 +160,17 @@ if ($_POST['submit']) {
                         <!-- /.form-container -->
                     </div>
                 </div>
-                <div class="container footer-1-2 pad-bottom0 pad5">
-                    <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
-                </div>
             </div>
         </div>
+        <div class="content-block contact-3">
+            <!-- /.container -->
+        </div>
+        <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">
+            <div class="container footer-1-2 pad-bottom0 pad5">
+                <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
+            </div>
+            <!-- /.container -->
+        </section>
         <section class="content-block-nopad bg-deepocean footer-wrap-1-1">
             <div class="container footer-1-1 pad10">
                 <h2 class="white text-center">Rhema Life Ministry</h2>
@@ -186,7 +192,7 @@ if ($_POST['submit']) {
         </section>
         <div class="copyright-bar bg-black">
             <div class="container">
-                <p class="pull-left">© Copyright 2017- Rhema Life Ministry</p>
+                <p class="pull-left small">© 2017- Rhema Life</p>
             </div>
         </div>
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>         

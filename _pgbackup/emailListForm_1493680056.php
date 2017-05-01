@@ -23,7 +23,7 @@ if ($_POST['submit']) {
 	} 
 	
 	else {
-		mail("rev@rhemalifeministry.org", "Prayer Request", "Name: ".$_POST['name']."
+		mail("sec@rhemalifeministry.org", "Add to Email List", "Name: ".$_POST['name']."
 		Email: ".$_POST['email']."
 		Phone Number: ".$_POST['number']."
 		Message: ".$_POST['message']);
@@ -111,7 +111,7 @@ if ($_POST['submit']) {
             <!-- /.container -->
         </section>
         <div class="panel bg-sunflower margin-top20"> 
-            <h2 class="text-center"><i><b>Prayer Requests</b></i></h2> 
+            <h2 class="text-center"><i><b class="text-center">Church Calendars</b></i></h2> 
         </div>
         <div class="container-fluid text-center margin-top0 pad5"> 
             <div class="row content margin-top0 pad0">
@@ -123,9 +123,9 @@ if ($_POST['submit']) {
 </div>
                         <div class="row">
                             <div class="offset-md-3 form col-md-12 btn-secondary contact">
-                                <h2 class="text-center"><i>Send a Prayer Request to Us</i></h2> 
+                                <h2 class="text-center"><i>Join our Email List!</i></h2> 
                                 <?php echo $result;?>
-                                <p class="contactp text-center">Send a message via the form below, and don't forget to check the box!</p>
+                                <p class="contactp text-center">Send a message via the form below, and don't forget to check the box !</p>
                                 <form method="post" role="form">
                                     <div class="form-group">
                                         <input type="text" name="name" class="form-control" placeholder="Your name" value="<?php echo $_POST['name']; ?>">
@@ -145,7 +145,7 @@ if ($_POST['submit']) {
                                         </label>
                                     </div>
                                     <div align="center">
-                                        <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="send prayer" />
+                                        <input type="submit" name="submit" class="btn btn-secondary btn-warning btn-lg active" value="Join our Email List" />
                                     </div>
                                 </form>
                             </div>
@@ -160,10 +160,13 @@ if ($_POST['submit']) {
                         <!-- /.form-container -->
                     </div>
                 </div>
-                <div class="container footer-1-2 pad-bottom0 pad5">
-                    <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
-                </div>
             </div>
+        </div>
+        <div class="content-block contact-3">
+            <!-- /.container -->
+        </div>
+        <div class="container footer-1-2 pad-bottom0 pad5">
+            <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
         </div>
         <section class="content-block-nopad bg-deepocean footer-wrap-1-1">
             <div class="container footer-1-1 pad10">
@@ -186,7 +189,7 @@ if ($_POST['submit']) {
         </section>
         <div class="copyright-bar bg-black">
             <div class="container">
-                <p class="pull-left">© Copyright 2017- Rhema Life Ministry</p>
+                <p class="pull-left small">© 2017- Rhema Life</p>
             </div>
         </div>
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>         

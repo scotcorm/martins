@@ -111,7 +111,7 @@ if ($_POST['submit']) {
             <!-- /.container -->
         </section>
         <div class="panel bg-sunflower margin-top20"> 
-            <h2 class="text-center"><i><b class="text-center">Church Calendars</b></i></h2> 
+            <h2 class="text-center"><i><b class="text-center">Our Email List</b></i></h2> 
         </div>
         <div class="container-fluid text-center margin-top0 pad5"> 
             <div class="row content margin-top0 pad0">
@@ -152,21 +152,11 @@ if ($_POST['submit']) {
                         </div>
                         <!-- /.project-wrapper -->
                     </section>                     
-                    <div class="pad-bottom20 box col-md-11">
-                        <section id="contact">
-                            <div class="container">
-</div>
-                        </section>
-                        <!-- /.form-container -->
-                    </div>
                 </div>
             </div>
-        </div>
-        <div class="content-block contact-3">
-            <!-- /.container -->
-        </div>
-        <div class="container footer-1-2 pad-bottom0 pad5">
-            <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
+            <div class="container footer-1-2 pad-bottom0 pad5">
+                <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
+            </div>
         </div>
         <section class="content-block-nopad bg-deepocean footer-wrap-1-1">
             <div class="container footer-1-1 pad10">
@@ -189,7 +179,7 @@ if ($_POST['submit']) {
         </section>
         <div class="copyright-bar bg-black">
             <div class="container">
-                <p class="pull-left small">© 2017- Rhema Life</p>
+                <p class="pull-left">© Copyright 2017- Rhema Life Ministry</p>
             </div>
         </div>
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>         
