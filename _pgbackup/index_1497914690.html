@@ -24,6 +24,14 @@
     <![endif]-->         
     </head>
     <body>
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9";
+          fjs.parentNode.insertBefore(js, fjs);
+          }(document, 'script', 'facebook-jssdk'));</script>
         <header id="header-1" class="soft-scroll header-1">
             <!-- Navbar -->
             <nav class="main-nav navbar-fixed-top headroom headroom--pinned">
@@ -76,7 +84,7 @@
         </section>
         <div class="container-fluid text-center margin-top0 pad5"> 
             <div class="row content margin-top0 pad0">
-                <div class="panel bg-sunflower margin-top0"> 
+                <div class="panel bg-sunflower margin-top20"> 
                     <h2 class="pad-bottom10"><b><i>Home Page</i></b></h2>
                 </div>
                 <div class="col-sm-2 sidenav margin-bottom5 margin-top15">
@@ -99,35 +107,36 @@
                     <p class="black text-left text-center white-hover bg-sunflower-hover"><a href="#ourFamily" class="black soft-scroll white-hover">Our Family</a></p>
                     <p class="black text-left text-center white-hover bg-sunflower-hover"><a href="#coreConcepts" class="black soft-scroll white-hover">Core Concepts</a></p>
                     <p class="black text-left text-center white-hover bg-sunflower-hover"><a href="#address" class="black soft-scroll white-hover">Address</a></p>
+                    <div class="fb-page" data-href="https://www.facebook.com/RhemaLifeMinistry22" data-width="380" data-hide-cover="false" data-show-facepile="false" data-show-posts="false"></div>
                 </div>
                 <div class="col-sm-8 pad-bottom0 margin-bottom0 text-left">
                     <section id="content-2-9" class="content-2-9">
                         <div class="project-wrapper">
-                            <div class="col-md-3 col-sm-6 project bg-moonlight">
+                            <div class="col-md-3 col-sm-6 project bg-deepocean">
                                 <div class="background-image-holder">
                                     <img class="background-image" alt="Daily Devotional" src="indexImg/Rhema%20of%20Bliss.jpg">
                                 </div>
                                 <div class="hover-state">
                                     <div class="align-vertical">
-                                        <h3>Rhema of Bliss</h3>
+                                        <h3 class="pad5">Rhema of Bliss</h3>
                                         <p class="paragraph">Link to Our Daily Devotional</p>
                                         <a class="btn btn-outline outline-light active bg-sunflower-hover" href="https://issuu.com/peakwebsystems/docs/rhema-bliss-for-november-2008">See more!</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 project bg-moonlight">
+                            <div class="col-md-3 col-sm-6 project bg-deepocean">
                                 <div class="background-image-holder">
                                     <img class="background-image" alt="Prayer Request" src="indexImg/prayerRequest.jpg">
                                 </div>
                                 <div class="hover-state">
                                     <div class="align-vertical">
                                         <h3>Make a Prayer Request</h3>
-                                        <p class="paragraph">We believe in the power of prayer!&nbsp;</p>
+                                        <p class="paragraph pad-bottom0">We believe in the power of prayer!&nbsp;</p>
                                         <a href="prayerRequestForm.php" class="btn btn-outline outline-light active bg-sunflower-hover">See more</a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 project bg-moonlight">
+                            <div class="col-md-3 col-sm-6 project bg-deepocean">
                                 <div class="background-image-holder">
                                     <img class="background-image" alt="Email List" src="indexImg/giving.jpg">
                                 </div>
@@ -139,7 +148,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-3 col-sm-6 project bg-moonlight">
+                            <div class="col-md-3 col-sm-6 project bg-deepocean">
                                 <div class="background-image-holder">
                                     <img class="background-image" alt="Bulletins" src="indexImg/sundayBulletin.jpg">
                                 </div>
@@ -286,12 +295,9 @@
             </section>
             <!-- /.container -->
         </section>
-        <section class="content-block-nopad footer-wrap-1-2 bg-offwhite">
-            <div class="container footer-1-2 pad-bottom0 pad5">
-                <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
-            </div>
-            <!-- /.container -->
-        </section>
+        <div class="container footer-1-2 pad-bottom0 pad5 bg-offwhite">
+            <img src="indexImg/logoT.png" class="brand-img img-responsive img-circle" alt="logo">
+        </div>
         <section class="content-block-nopad bg-deepocean footer-wrap-1-1">
             <div class="container footer-1-1 pad10">
                 <h2 class="white text-center soft-scroll" id="address">Rhema Life Ministry</h2>
@@ -313,7 +319,7 @@
         </section>
         <div class="copyright-bar bg-black">
             <div class="container">
-                <p class="pull-left small">© 2017- Rhema Life</p>
+                <p class="pull-left">© Copyright 2017- Rhema Life Ministry</p>
             </div>
         </div>
         <script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>         
